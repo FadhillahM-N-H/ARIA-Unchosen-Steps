@@ -138,15 +138,6 @@ move(3)
 
 ---
 
-## 🧭 Rencana Pengembangan
-
-- [ ] Reset Progres di menu Pengaturan
-- [ ] Optimasi performa dan model 3D
-- [ ] Bahasa Inggris
-- [ ] Level boss (di luar cakupan v1.0)
-
----
-
 ## 🐞 Menemukan Bug?
 
 Buka tab **[Issues](https://github.com/FadhillahM-N-H/ARIA-Unchosen-Steps/issues)** lalu ceritakan apa yang terjadi, di level dan stage berapa, serta spesifikasi perangkatmu. Screenshot sangat membantu.
