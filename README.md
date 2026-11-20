@@ -123,7 +123,6 @@ move(3)
 ## 🙏 Kredit dan Aset
 
 - **Model 3D lingkungan, musuh, dan unit ARIA:** dibuat menggunakan Blender.
-- **Model SentryRobot:** paket *Light Hearted Tech* (aset pihak ketiga).
 - **Font** (lisensi SIL OFL): Barlow, Barlow Condensed, IBM Plex Mono, JetBrains Mono, Rajdhani.
 - **Dibuat dengan:** Unity 6000.5.10f1 · Universal RP · Cinemachine · Input System · UI Toolkit.
 
