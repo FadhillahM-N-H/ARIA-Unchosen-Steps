@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 440" width="1600" height="440" role="img" aria-label="ARIA: Unchosen Steps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0D10"/>
+      <stop offset="0.55" stop-color="#151A22"/>
+      <stop offset="1" stop-color="#232B3A"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B0D10" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0B0D10" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="440" fill="url(#bg)"/>
+  <rect width="1600" height="440" fill="url(#grid)"/>
+
+  <!-- chamfered frame -->
+  <polygon points="48,18 1582,18 1582,392 1552,422 18,422 18,48" fill="none" stroke="#3A4458" stroke-width="2"/>
+  <polyline points="18,86 18,48 48,18 110,18" fill="none" stroke="#E9EBEE" stroke-width="3"/>
+  <polyline points="1490,422 1552,422 1582,392 1582,354" fill="none" stroke="#E9EBEE" stroke-width="3"/>
+
+  <!-- status label -->
+  <circle cx="96" cy="100" r="7" fill="#D94B4B"/>
+  <text x="118" y="107" font-family="'JetBrains Mono','Consolas','Courier New',monospace" font-size="20" letter-spacing="3" fill="#E06A6A">NEXUS-7 // STATUS: LOCKDOWN</text>
+
+  <!-- title -->
+  <text x="86" y="252" font-family="'Chakra Petch','Rajdhani','Segoe UI',Arial,sans-serif" font-size="150" font-weight="800" letter-spacing="20" fill="#E9EBEE">ARIA</text>
+  <text x="92" y="308" font-family="'Chakra Petch','Rajdhani','Segoe UI',Arial,sans-serif" font-size="34" font-weight="600" letter-spacing="15" fill="#8F99AB">UNCHOSEN STEPS</text>
+
+  <!-- tagline -->
+  <text x="92" y="372" font-family="'JetBrains Mono','Consolas','Courier New',monospace" font-size="24" fill="#7FA8FF">&gt; Satu baris kode. Satu langkah ARIA.<tspan fill="#E9EBEE">_</tspan></text>
+
+  <!-- tile map: path ARIA walks to the finish -->
+  <g transform="translate(1010 76)">
+    <!-- floor tiles (6 x 4, 64px, gap 10) -->
+    <g fill="#1B212C" stroke="#2E3647" stroke-width="2">
+      <rect x="0" y="0" width="64" height="64"/><rect x="74" y="0" width="64" height="64"/><rect x="148" y="0" width="64" height="64"/><rect x="222" y="0" width="64" height="64"/><rect x="296" y="0" width="64" height="64"/><rect x="370" y="0" width="64" height="64"/>
+      <rect x="0" y="74" width="64" height="64"/><rect x="74" y="74" width="64" height="64"/><rect x="148" y="74" width="64" height="64"/><rect x="222" y="74" width="64" height="64"/><rect x="296" y="74" width="64" height="64"/>
+      <rect x="0" y="148" width="64" height="64"/><rect x="74" y="148" width="64" height="64"/><rect x="148" y="148" width="64" height="64"/><rect x="222" y="148" width="64" height="64"/><rect x="296" y="148" width="64" height="64"/><rect x="370" y="148" width="64" height="64"/>
+      <rect x="74" y="222" width="64" height="64"/><rect x="148" y="222" width="64" height="64"/><rect x="222" y="222" width="64" height="64"/><rect x="296" y="222" width="64" height="64"/><rect x="370" y="222" width="64" height="64"/>
+    </g>
+    <!-- walls -->
+    <g fill="#0B0D10" stroke="#3A4458" stroke-width="2">
+      <rect x="370" y="74" width="64" height="64"/>
+      <rect x="0" y="222" width="64" height="64"/>
+    </g>
+    <!-- path -->
+    <g fill="#7FA8FF" fill-opacity="0.5" stroke="#7FA8FF" stroke-width="2">
+      <rect x="74" y="222" width="64" height="64"/>
+      <rect x="148" y="222" width="64" height="64"/>
+      <rect x="148" y="148" width="64" height="64"/>
+      <rect x="222" y="148" width="64" height="64"/>
+      <rect x="296" y="148" width="64" height="64"/>
+      <rect x="296" y="74" width="64" height="64"/>
+      <rect x="296" y="0" width="64" height="64"/>
+    </g>
+    <!-- start marker -->
+    <rect x="74" y="222" width="64" height="64" fill="none" stroke="#E9EBEE" stroke-width="3"/>
+    <circle cx="106" cy="254" r="12" fill="#E9EBEE"/>
+    <!-- finish -->
+    <rect x="370" y="0" width="64" height="64" fill="#F2E6CF" stroke="#F2E6CF" stroke-width="2"/>
+    <path d="M388 18 H416 V46 H388 Z M388 32 H416 M402 18 V46" fill="none" stroke="#0B0D10" stroke-width="3"/>
+    <!-- code caption -->
+    <text x="0" y="334" font-family="'JetBrains Mono','Consolas','Courier New',monospace" font-size="17" fill="#5F7FB8">move(1) · move(1) · move(2) · move(2) · move(1)</text>
+  </g>
+</svg>
