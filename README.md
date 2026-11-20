@@ -1,14 +1,7 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0B0D10,55:1B2029,100:3A4458&height=240&section=header&text=ARIA&fontSize=84&fontColor=E9EBEE&fontAlignY=42&desc=UNCHOSEN%20STEPS&descSize=22&descAlignY=66&animation=fadeIn" width="100%" alt="ARIA: Unchosen Steps"/>
-
-<!--
-  OPSIONAL: ganti banner dengan screenshot / GIF gameplay sendiri.
-  1. Simpan gambar di assets/banner.png (rasio lebar, mis. 1600x400)
-  2. Hapus <img> capsule-render di atas, lalu pakai:
-  <img src="assets/banner.png" width="100%" alt="ARIA: Unchosen Steps"/>
--->
+<img src="assets/banner.svg" width="100%" alt="ARIA: Unchosen Steps"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1100&color=7FA8FF&center=true&vCenter=true&width=640&lines=Satu+baris+kode.+Satu+langkah+ARIA.;Belajar+Python+lewat+puzzle+3D+%F0%9F%A7%A9;Fasilitas+NEXUS-7+sedang+lockdown...+%F0%9F%94%B4;Tulis+kodenya.+Jalankan.+Lihat+akibatnya." alt="Typing SVG"/>
@@ -43,8 +36,6 @@
 > Satu-satunya cara menggerakkannya adalah **kode yang kamu tulis**.
 
 **ARIA: Unchosen Steps** adalah *programming puzzle game* 3D tempat kamu berperan sebagai teknisi yang mengendalikan ARIA. Kamu menyusun instruksi, menjalankannya, lalu melihat sendiri apa yang terjadi. Dari situ, konsep dasar **Python** dipelajari lewat konsekuensi nyata di dalam level, bukan lewat hafalan.
-
-> 🎓 Dibuat sebagai tugas UAS mata kuliah **Pemrograman Game** sekaligus bahan proposal Tugas Akhir.
 
 ---
 
@@ -160,9 +151,9 @@ D4 Manajemen Informatika · Fakultas Vokasi · Universitas Negeri Surabaya
 
 ## 📄 Hak Penggunaan
 
-© 2026 Fadhillah Muhammad Nur Hafiz. Game ini dibagikan untuk dimainkan dan dinilai sebagai karya akademik. Mohon tidak mendistribusikan ulang atau menjualnya tanpa izin.
+© 2026 Fadhillah Muhammad Nur Hafiz. Game ini dibagikan untuk dimainkan dan dinikmati. Mohon tidak mendistribusikan ulang atau menjualnya tanpa izin.
 
 <!-- ===================== FOOTER ===================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:3A4458,55:1B2029,100:0B0D10&height=110&section=footer" width="100%" alt="Footer"/>
+  <img src="assets/footer.svg" width="100%" alt="ARIA: Unchosen Steps"/>
 </div>
